@@ -22,13 +22,14 @@ body, h1, h2, p, ul {
   width: 1020px;
   margin: auto;
   box-sizing: border-box;
+
 }
 
 .logo {
   font-size: 25px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #ffffff;
-  font-family: "Lato", Verdana, sans-serif;
+  font-family: «Lato», Verdana, sans-serif;
 }
 
 .logo__symbol {
