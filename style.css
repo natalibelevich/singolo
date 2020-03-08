@@ -48,8 +48,12 @@ body {
   font-size: 12px;
   line-height: 12px;
   color: #ffffff;
-  padding: 14px 15px 16px 15px;
+  padding: 14px 14px 16px 15px;
   cursor: pointer;
+}
+
+.navigation__item:hover {
+  text-decoration: underline;
 }
 
 .navigation__item::before {
@@ -68,7 +72,7 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 5px 0 0;
 }
 
 .slider {
@@ -89,6 +93,10 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.slider__button:hover {
+  background-color: #f17a73;
 }
 
 .slider__content {
@@ -120,13 +128,13 @@ body {
 .services {
   background-color: #f2f2f2;
   border-bottom: 6px solid #ffffff;
-  height: 494px;
 }
 
 .services__wrapper {
   padding-top: 59px;
   padding-left: 40px;
-  padding-right: 15px;
+  padding-right: 40px;
+  padding-bottom: 47px;
 }
 
 .services__title {
@@ -142,16 +150,18 @@ body {
   font-size: 18px;
   color: #767e9e;
   letter-spacing: 0.15px;
+  text-align: justify;
 }
 
 .services__list {
   display: flex;
   flex-wrap: wrap;
   padding-top: 28px;
+  justify-content: space-between;
 }
 
 .services__item {
-  width: 320px;
+  width: 299px;
   padding: 15px 0;
 }
 
@@ -173,8 +183,11 @@ body {
   color: #767e9e;
   font-family: "Lato", Verdana, sans-serif;
   font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.5px;
+  line-height: 21.5px;
+  height: 60px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: justify
 }
 
 .service-item__picture {
@@ -212,6 +225,7 @@ body {
   font-family: "Lato", Verdana, sans-serif;
   font-weight: 300;
   margin-bottom: 6px;
+  text-align: justify;
 }
 
 .portfolio__filters {
@@ -222,14 +236,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-}
-
-.filter {
-  padding-left: 7px;
-  padding-right: 7px;
-  margin-right: 8px;
-  letter-spacing: 0.15px;
-
 }
 
 .filter__current {
@@ -254,6 +260,20 @@ body {
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid #666d89;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 8px;
+  letter-spacing: 0.15px;
+  word-spacing: -1px;
+}
+
+.filter:last-child {
+  padding-right: 4px;
+  padding-left: 5px;
+}
+
+.filter:nth-child(3) {
+  padding-right: 5px;
 }
 
 .filter:hover {
@@ -302,8 +322,7 @@ body {
   color: #767e9e;
   font-family: "Lato", Verdana, sans-serif;
   font-weight: 300;
-  text-align: left;
-
+  text-align: justify;
 }
 
 .about__content {
@@ -336,7 +355,9 @@ body {
   font-weight: 900;
   text-align: left;
   padding-top: 12px;
-
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
 }
 
 .person__photo-x {
@@ -349,7 +370,7 @@ body {
   line-height: 21px;
   font-family: "Lato", Verdana, sans-serif;
   font-weight: 400;
-  text-align: left;
+  text-align: justify;
 }
 
 .social-links {
@@ -384,6 +405,7 @@ body {
   padding-top: 20px;
   line-height: 29px;
   letter-spacing: 0.15px;
+  text-align: justify;
 }
 
 .form__contact {
@@ -484,6 +506,7 @@ body {
   padding-top: 8px;
   line-height: 22px;
   letter-spacing: -0.03px;
+  text-align: justify;
 
 }
 
