@@ -51,13 +51,15 @@ body {
   padding: 14px 15px 16px 15px;
   cursor: pointer;
 }
-.navigation__item::before{
+
+.navigation__item::before {
   content: ".";
   color: #ffffff;
   position: absolute;
   left: -2px;
   top: 11px;
 }
+
 .navigation__item-current {
   color: #f06c64;
 }
@@ -691,6 +693,7 @@ body {
 
 .icon-facebook--light {
   background-image: url("assets/facebook.svg");
+  background-size: 8px;
 }
 
 .icon-facebook--light:hover {
@@ -699,6 +702,7 @@ body {
 
 .icon-google--light {
   background-image: url("assets/google+.svg");
+  background-size: 14px;
 }
 
 .icon-google--light:hover {
@@ -707,6 +711,7 @@ body {
 
 .icon-twitter--light {
   background-image: url("assets/twitter.svg");
+  background-size: 15px;
 }
 
 .icon-twitter--light:hover {
@@ -715,6 +720,7 @@ body {
 
 .icon-linkedin--light {
   background-image: url("assets/linkedin.svg");
+  background-size: 15px;
 }
 
 .icon-linkedin--light:hover {

@@ -1,15 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 14" width="8" height="14">
-	<defs>
-		<image width="50" height="90" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA5MSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjkxIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMNTAgMEw1MCA5MEwwIDkwWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICMwMDAwMDAgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik01MCAxNS42NUwzNS43MiAxNS42NUMzNC4wMyAxNS42NSAzMi4xNCAxNy44NyAzMi4xNCAyMC44NEwzMi4xNCAzMS4xNUw1MCAzMS4xNUw1MCA0NS44NUwzMi4xNCA0NS44NUwzMi4xNCA5MEwxNS4yOCA5MEwxNS4yOCA0NS44NUwwIDQ1Ljg1TDAgMzEuMTVMMTUuMjggMzEuMTVMMTUuMjggMjIuNUMxNS4yOCAxMC4wOSAyMy45IDAgMzUuNzIgMEw1MCAwTDUwIDE1LjY1WiIgLz4KCTwvZz4KPC9zdmc+"/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<g id="About Us">
-		<g id="Social Media">
-			<g id="Facebook">
-				<use id="facebook" href="#img1" transform="matrix(0.16,0,0,0.156,0,0)"/>
-			</g>
-		</g>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path id="All_glyphs" d="M50,15.65L35.72,15.65C34.03,15.65 32.14,17.87 32.14,20.84L32.14,31.15L50,31.15L50,45.85L32.14,45.85L32.14,90L15.29,90L15.29,45.85L0,45.85L0,31.15L15.29,31.15L15.29,22.5C15.29,10.09 23.9,0 35.72,0L50,0L50,15.65Z" style="fill:#767e9e;fill-rule:nonzero;"/>
 </svg>
