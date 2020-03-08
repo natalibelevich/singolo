@@ -166,7 +166,7 @@ a {
   text-decoration: none;
 }
 
-.down__wrapper {
+.footer__wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -177,11 +177,11 @@ a {
   align-items: center;
 }
 
-.down {
+.footer {
   background-color: #2d303a;
 }
 
-.down__copy {
+.footer__copyright {
   box-sizing: border-box;
   font-size: 12px;
   line-height: 22px;

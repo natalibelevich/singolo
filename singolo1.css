@@ -178,41 +178,41 @@ body, h1, h2, p, ul {
   background-position: center;
 }
 
-.picture-design {
+.icon-design {
   background-image: url("assets/design.svg");
 }
 
-.picture-ideas {
+.icon-ideas {
   background-image: url("assets/idea.svg");
 }
 
-.picture-love {
+.icon-love {
   background-image: url("assets/love.svg");
 }
 
-.picture-layout {
+.icon-layout {
   background-image: url("assets/layout.svg");
 }
 
-.picture-support {
+.icon-support {
   background-image: url("assets/support.svg");
 }
 
-.picture-star {
+.icon-star {
   background-image: url("assets/star.svg");
 }
 
-.chevron {
+.icon-chevron {
   width: 16px;
   height: 27px;
   background-repeat: no-repeat;
   display: inline-block;
 }
-.chevron-left {
+.icon-chevron--left {
   background-image: url("assets/chevron.svg");
 
 }
-.chevron-right {
+.icon-chevron--right {
   background-image: url("assets/chevron.svg");
   transform:rotate(180deg);
 
