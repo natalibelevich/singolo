@@ -22,24 +22,29 @@
     </nav>
   </div>
 </header>
-<section id="home" class="slider">
+<section class="slider">
+  <a href="#" class="ancher" id="home"></a>
   <div class="wrapper slider__wrapper">
     <div class="slider__button-prev slider__button">
       <span class="slider__chevron icon-chevron icon-chevron--left"></span>
     </div>
     <div class="slider__content">
-      <div class="slider__item iphones">
-        <div class="iphone-container iphones__iphone1-container">
-          <img class="iphones__iphone1" src="assets/iPhone%20Vertical.png" alt="Iphone1">
-          <div class="clickable"></div>
-        </div>
-        <div class="iphone-container iphones__iphone2-container">
-          <img class="iphones__iphone2" src="assets/iPhone%20Horizontal.png" alt="Iphone2">
-          <div class="clickable"></div>
+      <div class="slider__item slider__item--active">
+        <div class="iphones">
+          <div class="iphone-container iphones__iphone1-container">
+            <img class="iphones__iphone1" src="assets/iPhone%20Vertical.png" alt="Iphone1">
+            <div class="clickable"></div>
+          </div>
+          <div class="iphone-container iphones__iphone2-container">
+            <img class="iphones__iphone2" src="assets/iPhone%20Horizontal.png" alt="Iphone2">
+            <div class="clickable"></div>
+          </div>
         </div>
       </div>
-      <div class="slider__item slidesecond slider__content--hidden">
-        <img class="slide" src="assets/Slide-2.png" alt="slide2">
+      <div class="slider__item ">
+        <div class="blue-iphones">
+          <img class="blue-iphones__img" src="assets/Slide-2.png" alt="slide2">
+        </div>
       </div>
     </div>
     <div class="slider__button-next slider__button">
@@ -48,7 +53,8 @@
     </div>
   </div>
 </section>
-<section id="services" class="services">
+<section class="services">
+  <a href="#" class="ancher" id="services"></a>
   <div class="wrapper services__wrapper">
     <h2 class="services__title">Our Services</h2>
     <p class="services__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
@@ -103,13 +109,14 @@
 
   </div>
 </section>
-<section id="portfolio" class="portfolio">
+<section class="portfolio">
+  <a href="#" class="ancher" id="portfolio"></a>
   <div class="wrapper portfolio__wrapper">
     <h1 class="portfolio__title">Portfolio</h1>
     <span class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
     <nav class="filters portfolio__filters">
       <ul class="filters__list">
-        <li class="filter filter__current">All</li>
+        <li class="filter filter--current">All</li>
         <li class="filter">Web Design</li>
         <li class="filter">Graphic Design</li>
         <li class="filter">Artwork</li>
@@ -131,7 +138,8 @@
     </div>
   </div>
 </section>
-<section id="about" class="about">
+<section class="about">
+  <a href="#" class="ancher" id="about"></a>
   <div class="wrapper about__wrapper">
     <div class="about__title">About Us</div>
     <div class="about__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
@@ -181,7 +189,8 @@
     </div>
   </div>
 </section>
-<section id="contact" class="quote">
+<section class="quote">
+  <a href="#" class="ancher" id="contact"></a>
   <div class="wrapper quote__wrapper">
     <h1 class="quote__title">Get a Quote</h1>
     <p class="quote__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
@@ -190,11 +199,11 @@
       tortor mauris condimentum nibh.
     </p>
     <section class="form__contact">
-      <form class="quote__form" method="post">
-        <input class="input input__top" type="text" name="name" placeholder="Name (Required)" required>
-        <input class="input" type="email" name="password" placeholder="Email (Required)" required>
-        <input class="input" type="text" name="subject" placeholder="Subject">
-        <textarea class="input area" rows="13" name="comment"
+      <form class="quote__form" method="post" id="quote-form">
+        <input id="input-name" class="input input__top" type="text" name="name" placeholder="Name (Required)" required>
+        <input id="input-email" class="input" type="email" name="password" placeholder="Email (Required)" required>
+        <input id="input-subject" class="input" type="text" name="subject" placeholder="Subject">
+        <textarea id="input-comment" class="input area" rows="13" name="comment"
                   placeholder="Describe your project in detail..."></textarea>
         <input class="sub" type="submit" value="Submit">
       </form>
