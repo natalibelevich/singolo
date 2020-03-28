@@ -5,12 +5,18 @@
         rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Title</title>
 </head>
 <body>
 <header class="header">
   <div class="wrapper header__wrapper">
-    <h1 class="logo">SINGOLO<span class="logo__symbol">*</span></h1>
+    <button class="header__burger burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+    <h1 class="header__logo logo">SINGOLO<span class="logo__symbol">*</span></h1>
     <nav class="navigation">
       <ul class="navigation__list">
         <li class="navigation__item navigation__item-current"><a href="#home">HOME</a></li>
@@ -123,18 +129,18 @@
       </ul>
     </nav>
     <div class="projects">
-      <img class="projects__project" src="assets/Project1.png">
-      <img class="projects__project" src="assets/Project2.png">
-      <img class="projects__project" src="assets/Project3.png">
-      <img class="projects__project" src="assets/Project4.png">
-      <img class="projects__project" src="assets/Project5.png">
-      <img class="projects__project" src="assets/Project6.png">
-      <img class="projects__project" src="assets/Project7.png">
-      <img class="projects__project" src="assets/Project8.png">
-      <img class="projects__project" src="assets/Project9.png">
-      <img class="projects__project" src="assets/Project10.png">
-      <img class="projects__project" src="assets/Project11.png">
-      <img class="projects__project" src="assets/Project12.png">
+      <div class="projects__project"><img class="projects__img" src="assets/Project1.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project2.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project3.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project4.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project5.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project6.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project7.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project8.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project9.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project10.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project11.png"></div>
+      <div class="projects__project"><img class="projects__img" src="assets/Project12.png"></div>
     </div>
   </div>
 </section>
@@ -208,7 +214,7 @@
         <input class="sub" type="submit" value="Submit">
       </form>
       <div class="inform">
-        <div class="inform contacts">
+        <div class=" contacts">
           <span class="quote__contact-title">Contact Information</span>
           <span class="quote__contacts-description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </span>
           <ul class="quote__contacts-information">

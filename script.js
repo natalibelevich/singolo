@@ -113,11 +113,11 @@ function shuffleArray(array) {
 
 document.querySelector('.projects')
     .addEventListener('click', (event) => {
-        if (!event.target.classList.contains('projects__project')) return;
+        if (!event.target.parentElement.classList.contains('projects__project')) return;
         const currentActive = document.querySelector('.projects__project--active')
         if (currentActive)
             currentActive.classList.remove('projects__project--active');
-        event.target.classList.add('projects__project--active');
+        event.target.parentElement.classList.add('projects__project--active');
     });
 
 //FORM
@@ -156,4 +156,30 @@ function showModal(name, email, subject, description) {
         modalContainer.remove();
         document.querySelector('form').reset();
     });
+}
+
+//BURGER
+
+const burger = document.querySelector('.burger');
+const navigation = document.querySelector('.navigation');
+const logo = document.querySelector('.logo');
+burger.addEventListener('click',() => {
+    toggleBurger();
+});
+const navItema = document.querySelectorAll('.navigation__item');
+
+navItema.forEach(navItem => navItem.addEventListener('click', () => {
+    toggleBurger();
+}));
+
+function toggleBurger() {
+    if(navigation.classList.contains('navigation--open')) {
+        navigation.classList.remove('navigation--open');
+        logo.classList.remove('logo--open');
+        burger.classList.remove('header__burger--open');
+    } else {
+        navigation.classList.add('navigation--open');
+        logo.classList.add('logo--open');
+        burger.classList.add('header__burger--open');
+    }
 }
