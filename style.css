@@ -258,7 +258,7 @@ body {
 
 .iphones__iphone1-container.black-screen:before {
   width: 87%;
-  height: 73%;
+  height:73.3%;
   top: 14%;
   left: 7%;
 }
@@ -946,7 +946,7 @@ body {
 
 .ancher {
   position: relative;
-  top: -95px;
+  top: -94px;
   visibility: hidden;
 }
 
